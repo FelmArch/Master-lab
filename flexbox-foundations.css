@@ -59,4 +59,23 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
     padding: 20px;
     margin-top: 50px;
     height: 200px;
+
+    /* vamos agora ver o axes"eixo" */
+    flex-direction: column;
+}
+
+/* 2. Regras Comuns para todas as caixas (Agrupamento com Vírgula!) */
+
+.caixa-1, .caixa-2, .caixa-3 {
+    background-color: #129dc7;
+    border: 2px solid blue;
+    padding: 20px;
+    flex: 1;
+    margin: 10px 0;
+}
+
+/* quero a caixa 2 diferente ou seja maior */
+
+.caixa-2 {
+    flex-grow: 3;
 }
