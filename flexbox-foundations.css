@@ -1,0 +1,51 @@
+/* Praticar css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e7e7e7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* apenas Box model */
+/* aqui o box model continua a mandar nas pecas individualmente */
+.item {
+    background-color: #55960c;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 5px;
+    color: #ffffff; 
+}
+
+/* ativando o Flexbox */
+.menu-pai {
+    display: flex; /*isto ativa o sistema flex box*/
+    background-color: #333;
+    padding: 20px;
+}
+
+/* repedicao mas ja com novas aplicacoes */
+
+.item {
+
+    background-color: #55960c;
+    padding: 15px 30px; 
+    border: 2px solid white;
+    margin-right: 10px;
+    
+    /* aula 2 do flexbox */
+
+    flex: 1;   /* aqui aplicamos o flex */
+    flex-shrink: 0;
+}
+
+/* "Se eu usar o display: flex; não devo usar box model?"
+Deves e precisas.
+O Flexbox cuida do Alinhamento Coletivo (Manda todos para a direita, para o centro, ou coloca-os em fila).
+O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da borda e respiro do texto). */
