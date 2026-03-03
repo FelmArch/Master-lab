@@ -110,7 +110,7 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
 /* vamos mexer em cada um dentro do lateral */
 
-.lado {
+.lado, .b {
     background-color: #76a3b1;
     margin: 20px;
     padding: 20px;
@@ -126,3 +126,7 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
     font-weight: bold;
     height: 80%;
 }
+
+/* vamos ingrementar */
+
+
