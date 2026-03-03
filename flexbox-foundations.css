@@ -74,6 +74,10 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
     padding: 20px;
     flex: 1;
     margin: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* quero a caixa 2 diferente ou seja maior */
