@@ -94,3 +94,35 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
     gap: 20px;
     padding: 20px 0;
 }
+
+/* vamos mexer no lado direito */
+
+.lateral {
+    display: flex;
+    background-color: #8ee22d;
+    padding: 20px;
+    flex: 1;
+    margin-top: 50px;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* vamos mexer em cada um dentro do lateral */
+
+.lado {
+    background-color: #76a3b1;
+    margin: 20px;
+    padding: 20px;
+    /* text-align: center; */
+    justify-content: center;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    font-size: 64px;
+    font-weight: bold;
+    height: 80%;
+}
