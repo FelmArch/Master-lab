@@ -85,3 +85,12 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 .caixa-2 {
     flex-grow: 3;
 }
+
+
+/* vamos criar o item flex em container */
+
+.global {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
