@@ -142,10 +142,12 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
 .lado-2, .lado-3 {
     flex: 1;
+    align-items: center;
     border: 2px solid #ffffff;
     margin: 10px;
     background-color: #8ee22d;
     height: 80%;
-    justify-items: center;
     justify-content: center;
+    display: flex;
+    border-radius: 20px;
 }
