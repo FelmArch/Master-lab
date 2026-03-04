@@ -130,10 +130,9 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 }
 
 /* vamos ingrementar */
+/* primeiro tranformamos a class b em container */
 
 .b {
     display: flex;
-    gap: 1;
-    flex: 1;
+    padding: 20px;
 }
-
