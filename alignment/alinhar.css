@@ -22,3 +22,12 @@ body {
     border: 4px solid indigo;
     display: flex;
 }
+
+/* vamos dar aos itens */
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+}
