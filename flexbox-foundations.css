@@ -16,13 +16,13 @@ body {
 
 /* apenas Box model */
 /* aqui o box model continua a mandar nas pecas individualmente */
-.item {
+/* .item {
     background-color: #55960c;
     padding: 10px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 5px;
     color: #ffffff; 
-}
+} */
 
 /* ativando o Flexbox */
 .menu-pai {
@@ -110,7 +110,8 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
 /* vamos mexer em cada um dentro do lateral */
 
-.lado {
+.lado, .b {
+
     background-color: #76a3b1;
     margin: 20px;
     padding: 20px;
@@ -120,6 +121,7 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
     display: flex;
     align-items: center;
+    flex: 1;
 
     width: 80%;
     font-size: 64px;
@@ -129,4 +131,9 @@ O Box Model cuida da Integridade Individual (Tamanho do botão, grossura da bord
 
 /* vamos ingrementar */
 
+.b {
+    display: flex;
+    gap: 1;
+    flex: 1;
+}
 
