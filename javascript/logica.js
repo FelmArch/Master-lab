@@ -36,3 +36,10 @@ function capt(str) {
 console.log(capt('abcd'));
 console.log(capt('ABCD'));
 console.log(capt('aBcD'));
+
+// lastLetter` que receba uma string e retorne a última letra dessa string
+
+function lastLetter(str) {
+    return str[str.length - 1];
+}
+console.log(lastLetter('abcd'));
