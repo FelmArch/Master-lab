@@ -29,3 +29,10 @@ function multiply(a, b) {
 console.log(multiply(3, 2));
 
 // capitalize- manipular letras
+
+function capt(str) {
+    return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+console.log(capt('abcd'));
+console.log(capt('ABCD'));
+console.log(capt('aBcD'));
