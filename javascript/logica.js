@@ -43,3 +43,27 @@ function lastLetter(str) {
     return str[str.length - 1];
 }
 console.log(lastLetter('abcd'));
+
+
+// exercicios praticos do loop
+// exibir pares de 2 a 10
+
+for (let numeroPar = 2; numeroPar <= 10; numeroPar++) {
+    if (numeroPar % 2 == 0) {
+        console.log('o numero par e: ' + numeroPar);
+    }
+}
+
+// metodo 2, curto, otimizado porem nao eficas em certos casos, embora ganhe em performance
+
+for (let numero = 2; numero <= 10; numero += 2) {
+    console.log('o numero par e: ' + numero);
+}
+
+// 
+
+let voltas = 0;
+while (voltas < 3) {
+    alert( `number ${voltas}!` );
+    voltas++;
+}
