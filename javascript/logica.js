@@ -67,3 +67,10 @@ while (voltas < 3) {
     alert( `number ${voltas}!` );
     voltas++;
 }
+
+// 
+let numeroInserido;
+do{
+    numeroInserido = prompt('Porfavor, Insira um numero maior que 100:', '');
+} while (numeroInserido <= 100 && numeroInserido);
+
