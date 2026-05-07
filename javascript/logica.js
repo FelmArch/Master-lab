@@ -74,3 +74,24 @@ do{
     numeroInserido = prompt('Porfavor, Insira um numero maior que 100:', '');
 } while (numeroInserido <= 100 && numeroInserido);
 
+// numerosPrimos
+
+let n = 10;
+
+// este loop externo,testa cada numero ate o n
+for (let candidato = 2; candidato <= n; candidato++) {
+    // ate que se prove o contrario, e primo
+    let ehPrimo = true;
+    // precisamos do loop interno, para dividir e descubrir
+    for (let divisor = 2; divisor < candidato; divisor++) {
+        if (candidato % divisor === 0) {
+            // Achámos um divisor! Não é primo.
+            ehPrimo = false;
+            // Já não precisamos de testar mais, podemos sair do loop interno
+            break;
+        }
+    }
+    if (ehPrimo) {
+        console.log(candidato);
+    }
+}
